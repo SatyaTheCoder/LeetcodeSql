@@ -45,3 +45,8 @@ from cte
 join employee e on cte.departmentid = e.departmentid
 join department d on cte.departmentid = d.id
 where cte.sal = e.salary
+
+
+Details:
+Runtime: 902 ms, faster than 82.68% of MS SQL Server online submissions for Department Highest Salary.
+Memory Usage: 0B, less than 100.00% of MS SQL Server online submissions for Department Highest Salary.
